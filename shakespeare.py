@@ -4,7 +4,7 @@ from aitextgen.utils import GPT2ConfigCPU
 from aitextgen import aitextgen
 
 # The name of the downloaded Shakespeare text for training
-file_name = (input.txt)
+file_name = input.txt
 
 # Train a custom BPE Tokenizer on the downloaded text
 # This will save one file: `aitextgen.tokenizer.json`, which contains the
